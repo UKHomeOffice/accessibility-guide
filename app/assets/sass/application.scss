@@ -149,6 +149,10 @@ $dark-grey: #3B3B3B;
   font-size: 18px;
 }
 
+.govuk-heading__grey {
+  color: $dark-grey;
+}
+
 footer {
   box-shadow: 0 50vh 0 50vh #FFF;
 }
