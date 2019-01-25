@@ -5,40 +5,52 @@
 Accessibility guide
 {% endblock %}
 
-{% block content %}
+{% block main %}
 
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <h1 class="govuk-heading-xl">
-      Home Office accessibility guide
-    </h1>
+<section class="intro">
+  <div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">
+          Home Office accessibility guide
+        </h1>
 
-    <p class="govuk-body-l">Designing and building accessible services ensures everyone can use your service.</p>
-  </div>
-</div>
-
-<section class="principles">
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h2 class="govuk-heading-m">Principles of building accessible services</h2>
-      <p>If any of these are not met, users with access needs will not be able to use your service.</p>
-    </div>
-  </div>
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-one-quarter">
-      <p>Users need to be aware of and be able to perceive all content and user interface</p>
-    </div>
-    <div class="govuk-grid-column-one-quarter">
-      <p>Users need to be able to interact with and use the user interface</p>
-    </div>
-    <div class="govuk-grid-column-one-quarter">
-      <p>Users need to be able to understand the service and it's content</p>
-    </div>
-    <div class="govuk-grid-column-one-quarter">
-      <p>Users need to be able to access a service with any technology, both old and new</p>
+        <p class="govuk-body-l">Designing and building accessible services ensures everyone can use your service.</p>
+      </div>
     </div>
   </div>
 </section>
+
+<section class="principles">
+  <div class="govuk-width-container">
+    <h2 class="govuk-heading-m">Principles of building accessible services</h2>
+    <p>If any of these are not met, users with access needs will not be able to use your service.</p>
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-quarter">
+        <p>Users need to be aware of and be able to perceive all content and user interface</p>
+      </div>
+      <div class="govuk-grid-column-one-quarter">
+        <p>Users need to be able to interact with and use the user interface</p>
+      </div>
+      <div class="govuk-grid-column-one-quarter">
+        <p>Users need to be able to understand the service and it's content</p>
+      </div>
+      <div class="govuk-grid-column-one-quarter">
+        <p>Users need to be able to access a service with any technology, both old and new</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="main-event">
+  <div class="govuk-width-container">
+    <h1 class="govuk-heading-l">DDaT Together events</h1>
+  </div>
+</div>
+{{ super()}}
+{% endblock %}
+
+{% block content %}
 
 <section class="guidance-section">
   <div class="govuk-grid-row">
