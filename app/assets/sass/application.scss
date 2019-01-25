@@ -130,6 +130,7 @@ $govuk-typography-scale: (
 @import "patterns/related-items";
 
 // Components that aren't in Frontend
+@import "components/card";
 @import "components/cookie-banner";
 
 // HOME OFFICE STYLES
@@ -155,4 +156,12 @@ $dark-grey: #3B3B3B;
 
 footer {
   box-shadow: 0 50vh 0 50vh #FFF;
+}
+
+.intro, .principles {
+  margin: 3em 0;
+}
+
+.principles {
+  padding: 2em 0;
 }
