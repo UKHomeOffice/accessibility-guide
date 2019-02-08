@@ -7,19 +7,45 @@ Accessibility guide
 
 {% block main %}
 
-<section class="intro">
+<section style="margin: 3em 0 0 0;">
   <div class="govuk-width-container">
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
         <h1 class="govuk-heading-xl">
           Home Office accessibility guide
         </h1>
-
         <p class="govuk-body-l">Services must be accessible to everyone. We need to design and build services that match the way that people use them.</p>
       </div>
     </div>
   </div>
 </section>
+
+<section>
+  <div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <ul class="card-list">
+          <li class="card-list-item">
+            <div class="card-list-content">
+              <h2 class="govuk-heading-m">Accesibility checklist</h2>
+              <p>A simple set of checks anyone can do.</p>
+              <a href="checklist">Accesibility checklist</a>
+            </div>
+          </li>
+          <li class="card-list-item">
+            <div class="card-list-content">
+              <h2 class="govuk-heading-m">Resources and tools</h2>
+              <p>Tools and resources to further explore accessibility.</p>
+              <a href="">Resources and tools</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <section class="principles">
   <div class="govuk-width-container">
@@ -48,96 +74,4 @@ Accessibility guide
 </section>
 
 {{ super()}}
-{% endblock %}
-
-{% block content %}
-
-<section class="checklist-intro">
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h2 class="govuk-heading-l">Basic accessibility checks</h2>
-      <p>Anyone should be able to make these basic accesibility checks. Once done, you can contact the <a href="#">accessibility team</a> for a more comprehensive audit.</p>
-    </div>
-  </div>
-</section>
-
-<section class="guidance-section">
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h3 class="govuk-heading-m checklist-title" id="colour">Colour</h3>
-      <ul class="checklist-list">
-        <li>Don't use only colour as the only means of conveying information to a user </li>
-        <span class="guidance-section--examples">Examples: Buttons, labels, graph data</span>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="guidance-section">
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h3 class="govuk-heading-m checklist-title" id="content">Content</h3>
-      <ul class="checklist-list">
-        <li>Supply an easy to find link back to the start of the service</li>
-        <li>Text is left aligned</li>
-        <li>Text is no longer then 75 characters per line</li>
-        <li>Text is styled normally, not in bold, italics or all caps</li>
-        <li>Text is styled normally, not in bold, italics or all caps</li>
-        <li>Each link describes where it goes </li>
-        <span class="guidance-section--examples">Examples: </span>
-
-        <li>Text contrasts clearly against the background</li>
-        <span class="guidance-section--examples">Examples: black text on a white background</span>
-
-        <li>Content is easy to read, written for a minimum reading age of 11</li>
-        <li>Content does not use abbreviations or acronyms</li>
-        <li>Use headings to break up content</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="guidance-section">
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <div class="checklist-title">
-        <h3 class="govuk-heading-m" id="title">Title</h3>
-        <p>The title of a page can be found in the browser tab.</p>
-      </div>
-      <ul class="checklist-list">
-        <li>The title of the page describes the main purpose of the page</li>
-        <li>The title and the main heading on the page are the same or similar</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="guidance-section">
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h3 class="govuk-heading-m checklist-title" id="forms">Forms</h3>
-      <ul class="checklist-list">
-        <li>Every form field has a label</li>
-        <li>Selecting a form field causes the field to be focused </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="guidance-section">
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h3 class="govuk-heading-m checklist-title" id="forms">Using the keyboard</h3>
-      <p>To use the keyboard, press the Tab key to move to the next focusable element on the page and Shift+Tab keys to move to the previous element. Use either the Spacebar or Enter to use links and buttons.</p>
-      <ul class="checklist-list">
-        <li>The currently focused element is clearly shown</li>
-        <li>The order elements become focused is sensible</li>
-        <li>The page is easy to navigate</li>
-        <li>A skip link appears at the beggining of the page</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-
 {% endblock %}

@@ -1,0 +1,171 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Accessibility guide
+{% endblock %}
+
+{% block content %}
+
+<section class="intro">
+  <div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">
+          Basic accessibility checks
+        </h1>
+
+        <p class="govuk-body-l">Anyone should be able to make these basic accesibility checks. Once done, you can contact the <a href="#">accessibility team</a> for a more comprehensive audit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h3 class="govuk-heading-m" id="colour">Colour</h3>
+    </legend>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Don't use only colour as the only means of conveying information to a user
+        </label>
+      </div>
+    </div>
+
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h3 class="govuk-heading-m" id="content">Content</h3>
+    </legend>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Supply an easy to find link back to the start of the service
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Text is left aligned
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Text is no longer then 75 characters per line
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Text is styled normally, not in bold, italics or all caps
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Each link describes where it goes
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          The colour of text contrasts clearly against the background
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Content is easy to read, written for a minimum reading age of 11
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Content does not use abbreviations or acronyms
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Use headings to break up content
+        </label>
+      </div>
+    </div>
+
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h3 class="govuk-heading-m" id="title">Title</h3>
+      <p>The title of a page can be found in the browser tab.</p>
+    </legend>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          The title of the page describes the main purpose of the page
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          The title and the main heading on the page are the same or similar
+        </label>
+      </div>
+    </div>
+
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h3 class="govuk-heading-m" id="colour">Forms</h3>
+    </legend>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Every form field has a label
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          Selecting a form field causes the field to be focused
+        </label>
+      </div>
+    </div>
+
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h3 class="govuk-heading-m" id="keyboard">Using the keyboard</h3>
+    </legend>
+    <p>To use the keyboard, press the Tab key to move to the next focusable element on the page and Shift+Tab keys to move to the previous element. Use either the Spacebar or Enter to use links and buttons.</p>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          The currently focused element is clearly shown
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          The order elements become focused is sensible
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          The page is easy to navigate
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          A skip link appears at the beggining of the page
+        </label>
+      </div>
+    </div>
+
+  </fieldset>
+</div>
+
+
+{% endblock %}
