@@ -7,16 +7,11 @@ Accessibility guide
 
 {% block content %}
 
-<section class="intro">
-  <div class="govuk-width-container">
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
-        <h1 class="govuk-heading-xl">
-          Basic accessibility checks
-        </h1>
-
-        <p class="govuk-body-l">Anyone should be able to make these basic accesibility checks. Once done, you can contact the <a href="#">accessibility team</a> for a more comprehensive audit.</p>
-      </div>
+<section style="margin-top:3em;">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">Basic accessibility checks</h1>
+      <p class="govuk-body-l">Anyone should be able to make these basic accesibility checks. Once done, you can contact the <a href="#">accessibility team</a> for a more comprehensive audit.</p>
     </div>
   </div>
 </section>
@@ -27,143 +22,153 @@ Accessibility guide
     <div class="govuk-form-group">
       <fieldset class="govuk-fieldset">
 
-        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-          <h3 class="govuk-heading-m" id="colour">Colour</h3>
-        </legend>
-        <div class="govuk-checkboxes">
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="colour-1" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="colour-1">
-              Don't use only colour as the only means of conveying information to a user
-            </label>
+        <div class="checklist-section">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+            <h3 class="govuk-heading-m" id="colour">Colour</h3>
+          </legend>
+          <div class="govuk-checkboxes">
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="colour-1" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="colour-1">
+                Don't use only colour as the only means of conveying information to a user
+              </label>
+            </div>
           </div>
         </div>
 
-        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-          <h3 class="govuk-heading-m" id="content">Content</h3>
-        </legend>
-        <div class="govuk-checkboxes">
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-1" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-1">
-              Supply an easy to find link back to the start of the service
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-2" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-2">
-              Text is left aligned
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-3" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-3">
-              Text is no longer then 75 characters per line
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-4" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-4">
-              Text is styled normally, not in bold, italics or all caps
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-5" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-5">
-              Each link describes where it goes
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-6" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-6">
-              The colour of text contrasts clearly against the background
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-7" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-7">
-              Content is easy to read, written for a minimum reading age of 11
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-8" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-8">
-              Content does not use abbreviations or acronyms
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="content-9" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="content-9">
-              Use headings to break up content
-            </label>
-          </div>
-        </div>
-
-        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-          <h3 class="govuk-heading-m" id="title">Title</h3>
-          <p>The title of a page can be found in the browser tab.</p>
-        </legend>
-        <div class="govuk-checkboxes">
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="title-1" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="title-1">
-              The title of the page describes the main purpose of the page
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="title-2" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="title-2">
-              The title and the main heading on the page are the same or similar
-            </label>
+        <div class="checklist-section">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+            <h3 class="govuk-heading-m" id="content">Content</h3>
+          </legend>
+          <div class="govuk-checkboxes">
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-1" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-1">
+                Supply an easy to find link back to the start of the service
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-2" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-2">
+                Text is left aligned
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-3" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-3">
+                Text is no longer then 75 characters per line
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-4" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-4">
+                Text is styled normally, not in bold, italics or all caps
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-5" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-5">
+                Each link describes where it goes
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-6" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-6">
+                The colour of text contrasts clearly against the background
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-7" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-7">
+                Content is easy to read, written for a minimum reading age of 11
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-8" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-8">
+                Content does not use abbreviations or acronyms
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="content-9" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="content-9">
+                Use headings to break up content
+              </label>
+            </div>
           </div>
         </div>
 
-        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-          <h3 class="govuk-heading-m" id="colour">Forms</h3>
-        </legend>
-        <div class="govuk-checkboxes">
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="form-1" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="form-1">
-              Every form field has a label
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="form-2" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="form-2">
-              Selecting a form field causes the field to be focused
-            </label>
+        <div class="checklist-section">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+            <h3 class="govuk-heading-m" id="title">Title</h3>
+            <p class="checklist-hint">The title of a page can be found in the browser tab.</p>
+          </legend>
+          <div class="govuk-checkboxes">
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="title-1" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="title-1">
+                The title of the page describes the main purpose of the page
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="title-2" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="title-2">
+                The title and the main heading on the page are the same or similar
+              </label>
+            </div>
           </div>
         </div>
 
-        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-          <h3 class="govuk-heading-m" id="keyboard">Using the keyboard</h3>
-        </legend>
-        <p>To use the keyboard, press the Tab key to move to the next focusable element on the page and Shift+Tab keys to move to the previous element. Use either the Spacebar or Enter to use links and buttons.</p>
-        <div class="govuk-checkboxes">
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="keyboard-1" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="keyboard-1">
-              The currently focused element is clearly shown
-            </label>
+        <div class="checklist-section">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+            <h3 class="govuk-heading-m" id="colour">Forms</h3>
+          </legend>
+          <div class="govuk-checkboxes">
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="form-1" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="form-1">
+                Every form field has a label
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="form-2" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="form-2">
+                Selecting a form field causes the field to be focused
+              </label>
+            </div>
           </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="keyboard-2" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="keyboard-2">
-              The order elements become focused is sensible
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="keyboard-3" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="keyboard-3">
-              The page is easy to navigate
-            </label>
-          </div>
-          <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
-            <input class="govuk-checkboxes__input" id="keyboard-4" name="checklist" type="checkbox" value="">
-            <label class="govuk-label govuk-checkboxes__label" for="keyboard-4">
-              A skip link appears at the beggining of the page
-            </label>
+        </div>
+
+        <div class="checklist-section">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+            <h3 class="govuk-heading-m" id="keyboard">Using the keyboard</h3>
+          </legend>
+          <p class="checklist-hint">To use the keyboard, press the Tab key to move to the next focusable element on the page and Shift+Tab keys to move to the previous element. Use either the Spacebar or Enter to use links and buttons.</p>
+          <div class="govuk-checkboxes">
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="keyboard-1" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="keyboard-1">
+                The currently focused element is clearly shown
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="keyboard-2" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="keyboard-2">
+                The order elements become focused is sensible
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="keyboard-3" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="keyboard-3">
+                The page is easy to navigate
+              </label>
+            </div>
+            <div class="govuk-checkboxes__item govuk-checkboxes__item--white">
+              <input class="govuk-checkboxes__input" id="keyboard-4" name="checklist" type="checkbox" value="">
+              <label class="govuk-label govuk-checkboxes__label" for="keyboard-4">
+                A skip link appears at the beggining of the page
+              </label>
+            </div>
           </div>
         </div>
 

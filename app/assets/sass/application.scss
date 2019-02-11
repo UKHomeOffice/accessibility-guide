@@ -172,6 +172,18 @@ footer {
   }
 }
 
+.checklist-section {
+  margin: 2.5em 0;
+
+  .govuk-heading-m {
+    margin-bottom: 5px;
+  }
+
+  .checklist-hint {
+    color: #555;
+  }
+}
+
 .checklist-intro {
   margin-bottom: 3rem;
 }
